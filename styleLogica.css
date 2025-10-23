@@ -1,329 +1,169 @@
-*{
-    margin: 0;
-    padding: 0;
+* {
+  margin: 0;
+  padding: 0;
 }
 
-.divHeader{
-    display: flex;
-    align-items: center;
-    gap: 20px;
-    background-color: rgb(243, 243, 247);
-    width: 2000px;
-   
+html, body {
+  width: 100%;
+  height: 100%;
+  overflow-x: hidden;
 }
-.nav a{
+
+body {
+  background: linear-gradient(-45deg, #ffffff, #9e9e9e, #535353, #000000);
+  background-size: 500% 500%;
+  animation: gradient 15s ease infinite;
+}
+
+@keyframes gradient {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+.divHeader {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  background-color: rgb(243, 243, 247);
+  width: 2000px;
+}
+
+.nav a,
+.nav1 a,
+.nav2 a,
+.nav3 a,
+.nav4 a,
+.nav5 a,
+.nav6 a,
+.nav7 a {
   text-decoration: none;
-  color: #000000;   
+  color: #000000;
   font-weight: bold;
   font-size: 14px;
   font-family: 'Franklin Gothic Medium';
 }
 
-.nav1 a{
-  text-decoration: none;
-  color: #000000;   
-  font-weight: bold;
-  font-size: 14px;
-  font-family: 'Franklin Gothic Medium';
+.imagemSesi {
+  width: 120px;
+  height: 110px;
+  margin-left: 300px;
 }
 
-.nav2 a{
-  text-decoration: none;
-  color: #000000;   
-  font-weight: bold;
-  font-size: 14px;
-  font-family: 'Franklin Gothic Medium';
-}
-
-.nav3 a{
-  text-decoration: none;
-  color: #000000;   
-  font-weight: bold;
-  font-size: 14px;
-  font-family: 'Franklin Gothic Medium';
-}
-
-.nav4 a{
-  text-decoration: none;
-  color: #000000;   
-  font-weight: bold;
-  font-size: 14px;
-  font-family: 'Franklin Gothic Medium';
-}
-
-.nav5 a{
-  text-decoration: none;
-  color: #000000;   
-  font-weight: bold;
-  font-size: 14px;
-  font-family: 'Franklin Gothic Medium';
-}
-
-.nav6 a{
-  text-decoration: none;
-  color: #000000;   
-  font-weight: bold;
-  font-size: 14px;
-  font-family: 'Franklin Gothic Medium';
-}
-
-.nav7 a{
-  text-decoration: none;
-  color: #000000;   
-  font-weight: bold;
-  font-size: 14px;
-  font-family: 'Franklin Gothic Medium';
-}
-
-.imagemSesi{
-    width: 120px;
-    height: 110px;
-    margin-left: 300px;
-}
-
-.paragrafoTitulo{
+.paragrafoTitulo {
   margin-top: 50px;
-    text-align: center;
-    font-size: 40px;
-    text-decoration: underline;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    color: white;
+  text-align: center;
+  font-size: 40px;
+  text-decoration: underline;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: white;
 }
 
-.caixa1{
-    display: flex;
-    text-align: center;
-    align-items: center;
-    width: 1000px;
-    margin-left: 500px;
-}
-
-.paragrafoInformacao{
-    text-align: center;
-    font-size: 20px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    color: white;
-    
-}
-
-.pTitulo2{
-    font-size: 40px;
-    text-decoration: underline;
-    margin-left:30px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    color: white;
-}
-
-.secaoFluxograma {
+.caixa1 {
   display: flex;
-  align-items: center; 
-  justify-content: space-between; 
-  gap: 20px; 
+  text-align: center;
+  align-items: center;
+  width: 1000px;
+  margin-left: 500px;
+}
+
+.paragrafoInformacao {
+  text-align: center;
+  font-size: 20px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: white;
+}
+
+.pTitulo2, .pTitulo3, .pTitulo4, .pTitulo5, .pTitulo6, .pTitulo7 {
+  font-size: 40px;
+  text-decoration: underline;
+  margin-left: 30px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: white;
+}
+
+.secaoFluxograma,
+.secaoAlgoritmo,
+.secaoOndeAlgoritmo,
+.secaoPortugol {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
   margin: 20px 0;
 }
 
-.textoFluxo {
-  flex: 1; 
-  font-size: 20px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    color: white;
-    margin-left: 100px;
-    max-width: 1000px;
-}
-
-.ex1{
-  margin: 10px;
-    font-size: 20px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    color: white;
-}
-
-.imagemFluxo {
-  width: 400px; 
-  height: 300px;
-  border-radius: 8px;
-  margin-right: 250px;
-}
-
-.imagemSimbologia{
-   width: 500px;            
-    height: auto; 
-    margin-left: 30px;       
-}
-
-.secaoSimbologia{
-    display: flex;           
-    align-items: flex-start; 
-    gap: 20px;              
-}
-
-
-.textoSimbologia{
+.textoFluxo,
+.textoAlgoritmo,
+.textoAlg,
+.textoPort {
   flex: 1;
-   max-width: 1000px;
-}
-
-.pTitulo3{
-   font-size: 40px;
-    text-decoration: underline;
-    margin-left:30px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    color: white;
-}
-
-.info3{
-    font-size: 20px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    color: white;
-}
-
-.secaoAlgoritmo{
-  display: flex;
-  align-items: center; 
-  justify-content: space-between; 
-  gap: 20px; 
-  margin: 20px 0;
-}
-
-.textoAlgoritmo{
-   flex: 1; 
-    margin-left: 100px;
-    max-width: 1000px;
-}
-
-.pTitulo4{
-   font-size: 40px;
-    text-decoration: underline;
-    margin-left:30px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    color: white;
-}
-
-.info4{
-  margin: 10px;
   font-size: 20px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    color: white;
-    max-width: 1000px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: white;
+  margin-left: 100px;
+  max-width: 1000px;
 }
 
-.imagemAlg{
-  width: 400px; 
+.imagemFluxo,
+.imagemAlg {
+  width: 400px;
   height: 300px;
   border-radius: 8px;
   margin-right: 250px;
 }
 
-.secaoOndeAlgoritmo{
-  display: flex;
-  align-items: center; 
-  justify-content: space-between; 
-  gap: 20px; 
-  margin: 20px 0;
+.imagemSimbologia {
+  width: 500px;
+  height: auto;
+  margin-left: 30px;
 }
 
-.textoAlg{
-   flex: 1; 
-    margin-left: 100px;
-    max-width: 1000px;
-}
-
-.pTitulo5{
-   font-size: 40px;
-    text-decoration: underline;
-    margin-left:30px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    color: white;
-}
-
-.info5{
-  margin: 10px;
-  font-size: 20px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    color: white;
-    max-width: 1000px;
-}
-
-.secaoPortugol{
-   display: flex;
-  align-items: center; 
-  justify-content: space-between; 
-  gap: 20px; 
-  margin: 20px 0;
-}
-
-.textoPort{
-   flex: 1; 
-    margin-left: 100px;
-    max-width: 1000px;
-}
-
-.pTitulo6{
-   font-size: 40px;
-    text-decoration: underline;
-    margin-left:30px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    color: white;
-}
-
-.info6{
-  margin: 10px;
-  font-size: 20px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    color: white;
-    max-width: 1000px;
-}
-
-.imagemPort{
-    width: 800px; 
+.imagemPort {
+  width: 800px;
   height: 300px;
   border-radius: 8px;
   margin-right: 100px;
 }
 
-.ex2{
-  margin: 10px;
-    font-size: 20px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    color: white;
+.imagemVariavel {
+  width: 400px;
+  height: 300px;
+  margin: 30px;
+  margin-right: -40px;
+  border-radius: 8px;
 }
 
-.secaoVariaveis{
-    display: flex;           
-    align-items: flex-start; 
-    gap: 10px;
+.info3, .info4, .info5, .info6, .info7 {
+  font-size: 20px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: white;
+  max-width: 1000px;
 }
 
-.textoVariaveis{
-   flex: 1; 
-    margin-left: 100px;
-    max-width: 1000px;
-}
-
-.pTitulo7{
-   font-size: 40px;
-    text-decoration: underline;
-    margin-left:30px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    color: white;
-}
-
-.info7{
+.ex1, .ex2 {
   margin: 10px;
   font-size: 20px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    color: white;
-    max-width: 1000px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: white;
 }
 
-.imagemVariavel{
-   width: 400px;            
-    height: 300px; 
-    margin: 30px;  
-    margin-right: -40px;    
+.secaoSimbologia,
+.secaoVariaveis {
+  display: flex;
+  align-items: flex-start;
+  gap: 20px;
 }
 
-.container{
+.textoSimbologia,
+.textoVariaveis {
+  flex: 1;
+  max-width: 1000px;
+  margin-left: 100px;
+}
+
+
+.container {
   height: 300px;
   width: 900px;
   margin-left: 500px;
@@ -332,78 +172,96 @@
   background-color: white;
 }
 
-.balaoText{
+.balaoText {
   margin: 10px;
 }
 
-.titulo8{
+.titulo8 {
   font-size: 30px;
-    text-decoration: underline;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    color: rgb(0, 0, 0);
+  text-decoration: underline;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: rgb(0, 0, 0);
 }
 
-.info8{
- 
+.info8 {
   font-size: 20px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    color: rgb(0, 0, 0);
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: rgb(0, 0, 0);
 }
 
 .container-imagens {
-    display: flex;
-    justify-content: center; 
-    align-items: center;    
-    gap: 20px;                      
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
 }
 
-.titulo9{
-   font-size: 30px;
-    text-decoration: underline;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    color: rgb(255, 255, 255);
-    text-align: center
-    ;
+.titulo9 {
+  font-size: 30px;
+  text-decoration: underline;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: rgb(255, 255, 255);
+  text-align: center;
 }
 
-.img1{
+.img1, .img2, .img3, .img4, .img5, .img6 {
   width: 500px;
+  border-radius: 8px;
   height: auto;
 }
 
-.img2{
-  width: 500px;
-  height: 313px;
+.img3{
+  width: 350px;
+  height: auto;
 }
 
-.img4{
-   width: 500px;
-  height: auto; 
+.tituloMapa {
+  margin-top: 10px;
+  text-align: center;
+  font-size: 40px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: white;
 }
 
-.img5{
-  width: 500px;
-  height: 400px;
+.navegacaoImg {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); 
+  gap: 30px; 
+  justify-items: center; 
+  align-items: center; 
+  margin: 20px;
+  margin-left: 300px;
+  max-width: 900px; 
 }
 
-.img6{
-  width: 500px;
-  height: 400px;
+.imgFooter img {
+  width: 400px;
+  height: auto;
+  transition: transform 0.5s ease;
 }
 
-.IconeFooter{
-    margin-top: 10px;
-    width: 140px;
-    height: 110px;
-    border-radius: 10px;
-    margin-left: 150px;
+.imgFooter img:hover {
+  transform: scale(1.10); 
+}
+
+footer {
+  margin-top: 20px;
+  background-color: rgb(58, 58, 58);
+}
+
+.IconeFooter {
+  margin-top: 10px;
+  width: 140px;
+  height: 110px;
+  border-radius: 10px;
+  margin-left: 150px;
 }
 
 footer .infoFooter {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 50px; 
+  gap: 50px;
   width: 80%;
   max-width: 1000px;
   margin-bottom: 10px;
@@ -418,37 +276,163 @@ footer .infoFooter {
   width: 100%;
 }
 
-footer{
-  margin-top: 20px;
-  background-color: rgb(58, 58, 58);
-}
-
-hr{
+hr {
   margin-top: 10px;
 }
 
+@media (max-width: 600px) {
 
-html, body {
-  width: 100%;
-  height:100%;
-  overflow-x: hidden;
+  html, body {
+    overflow-x: hidden;
+  }
+
+  .divHeader {
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    width: 100%;
+    padding: 10px;
+  }
+
+  .imagemSesi {
+    width: 80px;
+    height: auto;
+    margin: 0;
+  }
+
+  .nav, .nav1, .nav2, .nav3, .nav4, .nav5, .nav6, .nav7 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 8px;
+    margin-top: 5px;
+  }
+
+  .nav a,
+  .nav1 a,
+  .nav2 a,
+  .nav3 a,
+  .nav4 a,
+  .nav5 a,
+  .nav6 a,
+  .nav7 a {
+    font-size: 13px;
+  }
+
+  .paragrafoTitulo,
+  .pTitulo2,
+  .pTitulo3,
+  .pTitulo4,
+  .pTitulo5,
+  .pTitulo6,
+  .pTitulo7,
+  .titulo8,
+  .titulo9 {
+    font-size: 24px;
+    text-align: center;
+    margin: 20px 0;
+  }
+
+  .paragrafoInformacao,
+  .textoFluxo,
+  .textoSimbologia,
+  .textoAlgoritmo,
+  .textoAlg,
+  .textoPort,
+  .textoVariaveis,
+  .info3,
+  .info4,
+  .info5,
+  .info6,
+  .info7,
+  .info8,
+  .ex1,
+  .ex2 {
+    font-size: 16px;
+    margin: 10px;
+    text-align: justify;
+  }
+
+  .caixa1,
+  .secaoFluxograma,
+  .secaoSimbologia,
+  .secaoAlgoritmo,
+  .secaoOndeAlgoritmo,
+  .secaoPortugol,
+  .secaoVariaveis {
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    margin: 20px auto;
+  }
+
+  .imagemFluxo,
+  .imagemSimbologia,
+  .imagemAlg,
+  .imagemPort,
+  .imagemVariavel {
+    width: 90%;
+    height: auto;
+    margin: 10px 0;
+  }
+
+  .container-imagens {
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .img1, .img2, .img4, .img5, .img6 {
+    width: 90%;
+    height: auto;
+  }
+
+  .container {
+    width: 90%;
+    margin: 20px auto;
+    height: auto;
+    padding: 15px;
+  }
+
+  .balaoText {
+    margin: 5px;
+  }
+
+  .tituloMapa {
+    font-size: 26px;
+  }
+
+  .navegacaoImg {
+    grid-template-columns: 1fr;
+    margin: 10px auto;
+    max-width: 90%;
+    gap: 20px;
+  }
+
+  .imgFooter img {
+    width: 100%;
+    height: auto;
+  }
+
+  footer {
+    width: 100%;
+    text-align: center;
+  }
+
+  .IconeFooter {
+    width: 100px;
+    height: auto;
+    margin: 10px auto;
+  }
+
+  footer .infoFooter {
+    flex-direction: column;
+    gap: 10px;
+    text-align: center;
+    width: 100%;
+  }
+
+  .footerBottom {
+    font-size: 12px;
+  }
 }
-
-body {
-    background: linear-gradient(-45deg, #ffffff, #9e9e9e, #535353, #000000);
-    background-size: 500% 500%;
-    animation: gradient 15s ease infinite;
-}
-
-@keyframes gradient {
-    0% {
-        background-position: 0% 50%;
-    }
-    50% {
-        background-position: 100% 50%;
-    }
-    100% {
-        background-position: 0% 50%;
-    }
-}
-

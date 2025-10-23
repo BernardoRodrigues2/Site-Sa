@@ -108,13 +108,24 @@
   background-color: white;
 }
 
+.secaoLinguagens:hover{
+    height: 520px;
+  width: 900px;
+  margin-left: 500px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  background-color: white;
+  transform: scale(1.02);
+}
+
+
 .textoLinguagens{
    margin: 10px;
 }
 
 .pTitulo1{
   font-size: 30px;
-    text-decoration: underline;
+    text-align: center;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     color: rgb(0, 0, 0);
 }
@@ -129,6 +140,143 @@
   font-size: 20px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     color: rgb(0, 0, 0);
+}
+
+.secaoInt{
+  height: 200px;
+  width: 900px;
+  margin-left: 500px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  background-color: white;
+}
+
+.secaoInt:hover{
+  height: 200px;
+  width: 900px;
+  margin-left: 500px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  background-color: white;
+  transform: scale(1.02);
+}
+
+.textoInt{
+   margin: 10px;
+}
+
+.pTitulo2{
+  font-size: 30px;
+  text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(0, 0, 0);
+}
+
+.info3{
+  font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(0, 0, 0);
+}
+
+.secaoHtml{
+  height: 200px;
+  width: 900px;
+  margin-left: 500px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  background-color: white;
+}
+
+.secaoHtml:hover{
+  height: 200px;
+  width: 900px;
+  margin-left: 500px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  background-color: white;
+  transform: scale(1.02);
+}
+
+.textoHtml{
+   margin: 10px;
+}
+
+.pTitulo3{
+  font-size: 30px;
+  text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(0, 0, 0);
+}
+
+.info4{
+  font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(0, 0, 0);
+}
+
+.secaoIDE{
+  height: 230px;
+  width: 900px;
+  margin-left: 500px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  background-color: white;
+}
+
+.secaoIDE:hover{
+  height: 230px;
+  width: 900px;
+  margin-left: 500px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  background-color: white;
+  transform: scale(1.02);
+}
+
+.textoIDE{
+   margin: 10px;
+}
+
+.pTitulo4{
+  font-size: 30px;
+  text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(0, 0, 0);
+}
+
+.info5{
+  font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(0, 0, 0);
+}
+
+.tituloMapa {
+  margin-top: 10px;
+  text-align: center;
+  font-size: 40px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: white;
+}
+
+.navegacaoImg {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); 
+  gap: 30px; 
+  justify-items: center; 
+  align-items: center; 
+  margin: 20px;
+  margin-left: 300px;
+  max-width: 900px; 
+}
+
+.imgFooter img {
+  width: 400px;
+  height: auto;
+  transition: transform 0.5s ease;
+}
+
+.imgFooter img:hover {
+  transform: scale(1.10); 
 }
 
 .IconeFooter{
